@@ -22,6 +22,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../pages/admin/dashboard/Dashboard.vue'),
       },
       {
+        name: 'number-pool',
+        path: 'number-pool',
+        component: () => import('../pages/number-pool/NumberPool.vue'),
+      },
+      {
         name: 'settings',
         path: 'settings',
         component: () => import('../pages/settings/Settings.vue'),

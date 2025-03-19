@@ -19,6 +19,13 @@ export default {
       },
     },
     {
+      name: 'number-pool',
+      displayName: 'menu.number-pool',
+      meta: {
+        icon: 'phone',
+      },
+    },
+    {
       name: 'users',
       displayName: 'menu.users',
       meta: {

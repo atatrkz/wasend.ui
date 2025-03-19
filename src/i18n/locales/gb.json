@@ -13,8 +13,8 @@
     "reset_password": "Reset password"
   },
   "404": {
-    "title": "This page’s gone fishing.",
-    "text": "If you feel that it’s not right, please send us a message at ",
+    "title": "This page's gone fishing.",
+    "text": "If you feel that it's not right, please send us a message at ",
     "back_button": "Back to dashboard"
   },
   "typography": {
@@ -54,7 +54,8 @@
     "404": "404",
     "faq": "FAQ",
     "users": "Users",
-    "projects": "Projects"
+    "projects": "Projects",
+    "number-pool": "Number Pool"
   },
   "messages": {
     "all": "See all messages",
