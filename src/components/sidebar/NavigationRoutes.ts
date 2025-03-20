@@ -19,6 +19,103 @@ export default {
       },
     },
     {
+      name: 'number-pool',
+      displayName: 'menu.number-pool',
+      meta: {
+        icon: 'phone',
+      },
+      children: [
+        {
+          name: 'number-pool-main',
+          displayName: 'menu.number-pool-main',
+        },
+        {
+          name: 'number-pool-buffer',
+          displayName: 'menu.number-pool-buffer',
+        },
+        {
+          name: 'number-pool-spolium',
+          displayName: 'menu.number-pool-spolium',
+        },
+        {
+          name: 'number-pool-pool',
+          displayName: 'menu.number-pool-pool',
+        },
+        {
+          name: 'number-pool-registry',
+          displayName: 'menu.number-pool-registry',
+        },
+        {
+          name: 'number-pool-session',
+          displayName: 'menu.number-pool-session',
+        },
+        {
+          name: 'number-pool-discard',
+          displayName: 'menu.number-pool-discard',
+        },
+        {
+          name: 'number-pool-quarantine',
+          displayName: 'menu.number-pool-quarantine',
+        },
+      ],
+    },
+    {
+      name: 'task-manager',
+      displayName: 'menu.task-manager',
+      meta: {
+        icon: 'assignment',
+      },
+    },
+    {
+      name: 'scenario-builder',
+      displayName: 'menu.scenario-builder',
+      meta: {
+        icon: 'architecture',
+      },
+    },
+    {
+      name: 'profiles',
+      displayName: 'menu.profiles',
+      meta: {
+        icon: 'account_box',
+      },
+    },
+    {
+      name: 'connections',
+      displayName: 'menu.connections',
+      meta: {
+        icon: 'link',
+      },
+    },
+    {
+      name: 'financial',
+      displayName: 'menu.financial',
+      meta: {
+        icon: 'attach_money',
+      },
+      children: [
+        {
+          name: 'financial-main',
+          displayName: 'menu.financial-main',
+        },
+        {
+          name: 'financial-orders',
+          displayName: 'menu.financial-orders',
+        },
+        {
+          name: 'financial-invoices',
+          displayName: 'menu.financial-invoices',
+        },
+      ],
+    },
+    {
+      name: 'reports',
+      displayName: 'menu.reports',
+      meta: {
+        icon: 'summarize',
+      },
+    },
+    {
       name: 'users',
       displayName: 'menu.users',
       meta: {
@@ -31,27 +128,6 @@ export default {
       meta: {
         icon: 'folder_shared',
       },
-    },
-    {
-      name: 'payments',
-      displayName: 'menu.payments',
-      meta: {
-        icon: 'credit_card',
-      },
-      children: [
-        {
-          name: 'payment-methods',
-          displayName: 'menu.payment-methods',
-        },
-        {
-          name: 'pricing-plans',
-          displayName: 'menu.pricing-plans',
-        },
-        {
-          name: 'billing',
-          displayName: 'menu.billing',
-        },
-      ],
     },
     {
       name: 'auth',
@@ -73,14 +149,6 @@ export default {
           displayName: 'menu.recover-password',
         },
       ],
-    },
-
-    {
-      name: 'faq',
-      displayName: 'menu.faq',
-      meta: {
-        icon: 'quiz',
-      },
     },
     {
       name: '404',

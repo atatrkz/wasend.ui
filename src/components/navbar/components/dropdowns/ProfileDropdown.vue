@@ -77,11 +77,6 @@ withDefaults(
             icon: 'mso-settings',
           },
           {
-            name: 'billing',
-            to: 'billing',
-            icon: 'mso-receipt_long',
-          },
-          {
             name: 'projects',
             to: 'projects',
             icon: 'mso-favorite',
@@ -93,13 +88,8 @@ withDefaults(
         separator: true,
         list: [
           {
-            name: 'faq',
-            to: 'faq',
-            icon: 'mso-quiz',
-          },
-          {
             name: 'helpAndSupport',
-            href: 'https://discord.gg/u7fQdqQt8c',
+            to: 'dashboard',
             icon: 'mso-error',
           },
         ],

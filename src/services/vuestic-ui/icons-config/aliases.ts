@@ -72,10 +72,6 @@ export default [
     to: 'fa4-volume-up',
   },
   {
-    name: 'github',
-    to: 'fa4-github',
-  },
-  {
     name: 'md_close',
     to: 'ion-md-close',
   },

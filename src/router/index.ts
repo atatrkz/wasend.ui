@@ -22,6 +22,100 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../pages/admin/dashboard/Dashboard.vue'),
       },
       {
+        name: 'number-pool',
+        path: '/number-pool',
+        component: RouteViewComponent,
+        children: [
+          {
+            name: 'number-pool-main',
+            path: '',
+            component: () => import('../pages/number-pool/NumberPool.vue'),
+          },
+          {
+            name: 'number-pool-buffer',
+            path: 'buffer',
+            component: () => import('../pages/number-pool/buffer/Buffer.vue'),
+          },
+          {
+            name: 'number-pool-spolium',
+            path: 'spolium',
+            component: () => import('../pages/number-pool/spolium/Spolium.vue'),
+          },
+          {
+            name: 'number-pool-pool',
+            path: 'pool',
+            component: () => import('../pages/number-pool/pool/Pool.vue'),
+          },
+          {
+            name: 'number-pool-registry',
+            path: 'registry',
+            component: () => import('../pages/number-pool/registry/Registry.vue'),
+          },
+          {
+            name: 'number-pool-session',
+            path: 'session',
+            component: () => import('../pages/number-pool/session/Session.vue'),
+          },
+          {
+            name: 'number-pool-discard',
+            path: 'discard',
+            component: () => import('../pages/number-pool/discard/Discard.vue'),
+          },
+          {
+            name: 'number-pool-quarantine',
+            path: 'quarantine',
+            component: () => import('../pages/number-pool/quarantine/Quarantine.vue'),
+          },
+        ],
+      },
+      {
+        name: 'task-manager',
+        path: 'task-manager',
+        component: () => import('../pages/task-manager/TaskManager.vue'),
+      },
+      {
+        name: 'scenario-builder',
+        path: 'scenario-builder',
+        component: () => import('../pages/scenario-builder/ScenarioBuilder.vue'),
+      },
+      {
+        name: 'profiles',
+        path: 'profiles',
+        component: () => import('../pages/profiles/Profiles.vue'),
+      },
+      {
+        name: 'connections',
+        path: 'connections',
+        component: () => import('../pages/connections/Connections.vue'),
+      },
+      {
+        name: 'financial',
+        path: '/financial',
+        component: RouteViewComponent,
+        children: [
+          {
+            name: 'financial-main',
+            path: '',
+            component: () => import('../pages/financial/Financial.vue'),
+          },
+          {
+            name: 'financial-orders',
+            path: 'orders',
+            component: () => import('../pages/financial/orders/Orders.vue'),
+          },
+          {
+            name: 'financial-invoices',
+            path: 'invoices',
+            component: () => import('../pages/financial/invoices/Invoices.vue'),
+          },
+        ],
+      },
+      {
+        name: 'reports',
+        path: 'reports',
+        component: () => import('../pages/reports/Reports.vue'),
+      },
+      {
         name: 'settings',
         path: 'settings',
         component: () => import('../pages/settings/Settings.vue'),
@@ -40,33 +134,6 @@ const routes: Array<RouteRecordRaw> = [
         name: 'projects',
         path: 'projects',
         component: () => import('../pages/projects/ProjectsPage.vue'),
-      },
-      {
-        name: 'payments',
-        path: '/payments',
-        component: RouteViewComponent,
-        children: [
-          {
-            name: 'payment-methods',
-            path: 'payment-methods',
-            component: () => import('../pages/payments/PaymentsPage.vue'),
-          },
-          {
-            name: 'billing',
-            path: 'billing',
-            component: () => import('../pages/billing/BillingPage.vue'),
-          },
-          {
-            name: 'pricing-plans',
-            path: 'pricing-plans',
-            component: () => import('../pages/pricing-plans/PricingPlans.vue'),
-          },
-        ],
-      },
-      {
-        name: 'faq',
-        path: '/faq',
-        component: () => import('../pages/faq/FaqPage.vue'),
       },
     ],
   },

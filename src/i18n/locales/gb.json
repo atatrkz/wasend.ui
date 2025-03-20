@@ -13,8 +13,8 @@
     "reset_password": "Reset password"
   },
   "404": {
-    "title": "This page’s gone fishing.",
-    "text": "If you feel that it’s not right, please send us a message at ",
+    "title": "This page's gone fishing.",
+    "text": "If you feel that it's not right, please send us a message at ",
     "back_button": "Back to dashboard"
   },
   "typography": {
@@ -44,17 +44,31 @@
     "billing": "Billing",
     "login": "Login",
     "preferences": "Account preferences",
-    "payments": "Payments",
     "settings": "Application settings",
-    "pricing-plans": "Pricing plans",
-    "payment-methods": "Payment methods",
     "signup": "Signup",
     "recover-password": "Recover password",
     "recover-password-email": "Recover password email",
     "404": "404",
-    "faq": "FAQ",
     "users": "Users",
-    "projects": "Projects"
+    "projects": "Projects",
+    "number-pool": "Number Pool",
+    "number-pool-main": "Overview",
+    "number-pool-buffer": "Buffer",
+    "number-pool-spolium": "Spolium",
+    "number-pool-pool": "Pool",
+    "number-pool-registry": "Registry",
+    "number-pool-session": "Session",
+    "number-pool-discard": "Discard",
+    "number-pool-quarantine": "Quarantine",
+    "task-manager": "Task Manager",
+    "scenario-builder": "Scenario Builder",
+    "profiles": "Profiles",
+    "connections": "Connections",
+    "financial": "Financial",
+    "financial-main": "Overview",
+    "financial-orders": "Orders",
+    "financial-invoices": "Invoices",
+    "reports": "Reports"
   },
   "messages": {
     "all": "See all messages",
@@ -79,7 +93,6 @@
     "profile": "Profile",
     "settings": "Settings",
     "billing": "Billing",
-    "faq": "FAQ",
     "helpAndSupport": "Help & support",
     "projects": "Projects",
     "account": "Account",
@@ -243,3 +256,4 @@
     "select": "Select an option"
   }
 }
+

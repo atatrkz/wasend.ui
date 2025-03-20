@@ -7,6 +7,7 @@ import YearlyBreakup from './cards/YearlyBreakup.vue'
 import MonthlyEarnings from './cards/MonthlyEarnings.vue'
 import RegionRevenue from './cards/RegionRevenue.vue'
 import Timeline from './cards/Timeline.vue'
+import NumberDistribution from './cards/NumberDistribution.vue'
 </script>
 
 <template>
@@ -27,6 +28,9 @@ import Timeline from './cards/Timeline.vue'
     <div class="flex flex-col md:flex-row gap-4">
       <ProjectTable class="w-full md:w-1/2" />
       <Timeline class="w-full md:w-1/2" />
+    </div>
+    <div>
+      <NumberDistribution class="w-full" />
     </div>
   </section>
 </template>
